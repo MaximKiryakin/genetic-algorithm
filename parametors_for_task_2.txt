@@ -1,0 +1,13 @@
+population_volume = 35                            # число штук
+preserved_high_positions = 4                      # число штук
+preserved_low_positions = 4                       # число штук
+crossing_volume = 100                             # в процентах 
+variability = 80                                  # в процентах 
+truncation_selection_t = 80                       # в процентах (это доля Т для отбора усечением)
+operating_mode = 0                                # Режим программы. 0 - тестовый 1 - основной
+printing_to_console = 1                           # 1-печать, 0 не печатать (в тестовом режиме)
+mutation_type = 1                                 # 1 - рандом. бит; 2 - двубитовая; 3 - реверс
+crossbreeding = 1                                 # 1- одноточное; 2 - двуточеное; 3 - универс.; 4 - однородное
+selection_type = 2                                # 1 - усечение; 2-пропорциональный.
+Max_function_value_int = 4115                     # отсечка по значению функции. Введите целове число, далее число цифр после запятой 
+Number_of_signs = 4                               # число цифр после запятой (не более 5)
